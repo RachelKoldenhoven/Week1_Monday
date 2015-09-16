@@ -1,0 +1,55 @@
+//task 1
+console.log("Rachel Koldenhoven");
+//task 2
+var name = "Rachel Koldenhoven"
+console.log(name)
+//task 3
+var x = 69;
+var y = 007;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x/y);
+//task 4
+var str1 = "Rachel ";
+var str2 = "loves ";
+var str3 = "volcanoes!"
+var res = str1.concat(str2,str3);
+console.log(res);
+//task 5
+var str4 = "5";
+var str5 = "3";
+console.log(str4 + str5);
+(program):253//53
+undefined
+console.log(str4 - str5);
+(program):22//2
+undefined
+console.log(str4 * str5);
+(program):215//15
+undefined
+console.log(str4/str5);
+(program):21.6666666666666667//1.6666666666666667
+undefined
+//The result is an example of "type coercion" in which JS changes the string to
+//a number.  Still, why is 5 + 3 + 53?
+//task 6
+var number = prompt("Pick a number, 1");
+number;
+number*2;
+//task 7
+alert("I love volcanoes!");
+//task 8
+var length = 5;
+var width = 3;
+var height = 11;
+console.log(length*width);
+console.log(length*width*height);
+//task 9
+var name = prompt("What is your name?");
+var age = prompt("How old are you?");
+var city = prompt("What city do you live in?");
+console.log("My name is " + name + ", I'm " + age +"years old, and I live in " + city);
+//task 10
+var volcano = prompt("What is your favorite volcano?");
+alert(volcano);
